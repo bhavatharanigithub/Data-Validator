@@ -93,3 +93,42 @@ async def ocr_debug():
         "status": "ok",
         "message": "OCR request reached Render"
     }
+@app.get("/api/ocr-engine-test")
+async def ocr_engine_test():
+    print("========== OCR ENGINE TEST START ==========")
+
+    try:
+        print("Importing PaddleOCR...")
+
+        from paddleocr import PaddleOCR
+
+        print("PaddleOCR imported successfully")
+
+        print("Creating PaddleOCR engine...")
+
+        engine = PaddleOCR(
+            lang="en",
+            device="cpu",
+            use_doc_orientation_classify=False,
+            use_doc_unwarping=False,
+            use_textline_orientation=False,
+        )
+
+        print("========== PADDLE OCR INITIALIZED ==========")
+
+        return {
+            "status": "ok",
+            "message": "PaddleOCR initialized successfully"
+        }
+
+    except Exception as e:
+        import traceback
+
+        print("========== PADDLE OCR FAILED ==========")
+        traceback.print_exc()
+
+        return {
+            "status": "error",
+            "type": type(e).__name__,
+            "message": str(e)
+        }
