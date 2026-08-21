@@ -86,3 +86,10 @@ app.include_router(dashboard_router, prefix="/api", dependencies=protected)
 app.include_router(intelligence_router, prefix="/api", dependencies=protected)
 app.include_router(pipeline_router, prefix="/api", dependencies=protected)
 app.include_router(investigations_router, prefix="/api", dependencies=protected)
+@app.post("/api/ocr-debug")
+async def ocr_debug():
+    print("========== OCR DEBUG REQUEST RECEIVED ==========")
+    return {
+        "status": "ok",
+        "message": "OCR request reached Render"
+    }
