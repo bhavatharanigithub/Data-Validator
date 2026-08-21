@@ -61,12 +61,12 @@ app.add_middleware(
     allow_origin_regex=(
         r"^https?://(localhost|127\.0\.0\.1|192\.168\.0\.100)(:\d+)?$"
         r"|^https://data-validator-chi\.vercel\.app$"
+        r"|^https://data-validator-git-main-bhavatharanis-projects\.vercel\.app$"
     ),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 protected = [Depends(get_current_user)]
 
 app.include_router(health_router, prefix="/api")
