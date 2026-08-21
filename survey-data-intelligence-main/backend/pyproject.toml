@@ -1,0 +1,25 @@
+[project]
+name = "survey-data-intelligence"
+version = "0.1.0"
+requires-python = "==3.12.*"
+
+dependencies = [
+    "fastapi[standard]",
+    "uvicorn[standard]",
+    "sqlalchemy>=2.0",
+    "pydantic>=2.0",
+    "pydantic-settings",
+    "python-multipart",
+    "httpx",
+    "pandas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "pyarrow",
+    "python-dotenv",
+    "PyJWT",
+    "psycopg[binary]",
+]
+
+[tool.fastapi]
+entrypoint = "app.main:app"

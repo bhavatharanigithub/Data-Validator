@@ -1,0 +1,53 @@
+{
+  "schema_version": "v1",
+  "records": [
+    {
+      "respondent_id": "R001",
+      "age": 34,
+      "sex": " F",
+      "district_code": 1101,
+      "cluster_id": "C01",
+      "enumerator_id": "E12",
+      "working_hours": 40,
+      "income": 15000,
+      "employment_status": "employed",
+      "notes": ""
+    },
+    {
+      "respondent_id": "R002",
+      "age": null,
+      "sex": "M",
+      "district_code": 1101,
+      "cluster_id": "C01",
+      "enumerator_id": "E12",
+      "working_hours": 0,
+      "income": "NA",
+      "employment_status": "unemployed",
+      "notes": "n/a"
+    },
+    {
+      "respondent_id": "R003",
+      "age": 61,
+      "sex": "F",
+      "district_code": 1102,
+      "cluster_id": "C02",
+      "enumerator_id": "E15",
+      "working_hours": 36,
+      "income": " 22000 ",
+      "employment_status": "employed",
+      "notes": "  "
+    },
+    {
+      "respondent_id": "R004",
+      "age": 29,
+      "sex": "M",
+      "district_code": 1102,
+      "cluster_id": "C02",
+      "enumerator_id": "E15",
+      "working_hours": 48,
+      "income": "null",
+      "employment_status": "employed",
+      "notes": "-"
+    }
+  ]
+}

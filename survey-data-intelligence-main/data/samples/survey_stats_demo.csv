@@ -1,0 +1,25 @@
+respondent_id,age,sex,district_code,cluster_id,enumerator_id,working_hours,income,employment_status,notes
+R201,28,F,1101,C01,E12,40,12000,employed,synthetic statistical demonstration
+R202,31,M,1101,C01,E12,38,12500,employed,synthetic statistical demonstration
+R203,33,F,1101,C01,E12,42,13000,employed,synthetic statistical demonstration
+R204,36,M,1101,C01,E12,40,12800,employed,synthetic statistical demonstration
+R205,29,F,1101,C01,E12,41,12200,employed,synthetic statistical demonstration
+R206,34,M,1101,C01,E12,39,12600,employed,synthetic statistical demonstration
+R207,32,F,1101,C01,E12,40,12400,employed,synthetic statistical demonstration
+R208,30,M,1101,C01,E12,42,12900,employed,synthetic statistical demonstration
+R209,35,F,1101,C01,E12,38,12100,employed,synthetic statistical demonstration
+R210,27,M,1101,C01,E12,41,12700,employed,synthetic statistical demonstration
+R211,37,F,1101,C01,E12,40,12300,employed,synthetic statistical demonstration
+R212,33,M,1101,C01,E12,100,12500,employed,synthetic statistical demonstration — unusual hours
+R213,40,F,1102,C02,E15,40,18000,employed,synthetic statistical demonstration
+R214,42,M,1102,C02,E15,38,18500,employed,synthetic statistical demonstration
+R215,39,F,1102,C02,E15,42,18200,employed,synthetic statistical demonstration
+R216,44,M,1102,C02,E15,40,18800,employed,synthetic statistical demonstration
+R217,41,F,1102,C02,E15,41,18100,employed,synthetic statistical demonstration
+R218,38,M,1102,C02,E15,39,18600,employed,synthetic statistical demonstration
+R219,43,F,1102,C02,E15,40,18400,employed,synthetic statistical demonstration
+R220,45,M,1102,C02,E15,42,18900,employed,synthetic statistical demonstration
+R221,36,F,1102,C02,E15,38,18300,employed,synthetic statistical demonstration
+R222,47,M,1102,C02,E15,41,18700,employed,synthetic statistical demonstration
+R223,34,F,1102,C02,E15,40,18000,employed,synthetic statistical demonstration
+R224,48,M,1102,C02,E15,39,18500,employed,synthetic statistical demonstration

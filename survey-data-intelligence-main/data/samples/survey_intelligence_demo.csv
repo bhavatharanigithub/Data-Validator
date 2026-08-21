@@ -1,0 +1,87 @@
+respondent_id,age,sex,education,marital_status,household_id,household_role,district_code,cluster_id,enumerator_id,working_hours,income,employment_status,household_size,survey_round,notes
+N001,29,M,secondary,never married,H001,member,1101,C01,E12,37,12080,employed,4,2024Q1,clean
+N002,30,F,secondary,never married,H002,member,1101,C01,E12,38,12160,employed,4,2024Q1,clean
+N003,31,M,secondary,never married,H003,member,1101,C01,E12,39,12240,employed,4,2024Q1,clean
+N004,32,F,secondary,never married,H004,member,1101,C01,E12,40,12320,employed,4,2024Q1,clean
+N005,33,M,secondary,never married,H005,member,1101,C01,E12,41,12400,employed,4,2024Q1,clean
+N006,34,F,secondary,never married,H006,member,1101,C01,E12,42,12480,employed,4,2024Q1,clean
+N007,35,M,secondary,never married,H007,member,1101,C01,E12,43,12560,employed,4,2024Q1,clean
+N008,36,F,secondary,never married,H008,member,1101,C01,E12,36,12640,employed,4,2024Q1,clean
+N009,37,M,secondary,never married,H009,member,1101,C01,E12,37,12720,employed,4,2024Q1,clean
+N010,38,F,secondary,never married,H010,member,1101,C01,E12,38,12800,employed,4,2024Q1,clean
+N011,39,M,secondary,never married,H011,member,1101,C01,E12,39,12880,employed,4,2024Q1,clean
+N012,28,F,secondary,never married,H012,member,1101,C01,E12,40,12960,employed,4,2024Q1,clean
+N013,29,M,secondary,never married,H013,member,1101,C01,E12,41,13040,employed,4,2024Q1,clean
+N014,30,F,secondary,never married,H014,member,1101,C01,E12,42,13120,employed,4,2024Q1,clean
+N015,31,M,secondary,never married,H015,member,1101,C01,E12,43,13200,employed,4,2024Q1,clean
+N016,32,F,secondary,never married,H016,member,1101,C01,E12,36,13280,employed,4,2024Q1,clean
+N017,33,M,secondary,never married,H017,member,1101,C01,E12,37,13360,employed,4,2024Q1,clean
+N018,34,F,secondary,never married,H018,member,1101,C01,E12,38,13440,employed,4,2024Q1,clean
+N019,35,M,secondary,never married,H019,member,1101,C01,E12,39,13520,employed,4,2024Q1,clean
+N020,36,F,secondary,never married,H020,member,1101,C01,E12,40,13600,employed,4,2024Q1,clean
+N021,37,M,secondary,never married,H021,member,1101,C01,E12,41,13680,employed,4,2024Q1,clean
+N022,38,F,secondary,never married,H022,member,1101,C01,E12,42,13760,employed,4,2024Q1,clean
+N023,39,M,secondary,never married,H023,member,1101,C01,E12,43,13840,employed,4,2024Q1,clean
+N024,28,F,secondary,never married,H024,member,1101,C01,E12,36,13920,employed,4,2024Q1,clean
+N025,29,M,secondary,never married,H025,member,1101,C01,E12,37,14000,employed,4,2024Q1,clean
+N026,30,F,secondary,never married,H026,member,1101,C01,E12,38,14080,employed,4,2024Q1,clean
+N027,31,M,secondary,never married,H027,member,1101,C01,E12,39,14160,employed,4,2024Q1,clean
+N028,32,F,secondary,never married,H028,member,1101,C01,E12,40,14240,employed,4,2024Q1,clean
+N029,33,M,secondary,never married,H029,member,1101,C01,E12,41,14320,employed,4,2024Q1,clean
+N030,34,F,secondary,never married,H030,member,1101,C01,E12,42,14400,employed,4,2024Q1,clean
+N031,35,M,secondary,never married,H031,member,1101,C01,E12,43,14480,employed,4,2024Q1,clean
+N032,36,F,secondary,never married,H032,member,1101,C01,E12,36,14560,employed,4,2024Q1,clean
+N033,37,M,secondary,never married,H033,member,1101,C01,E12,37,14640,employed,4,2024Q1,clean
+N034,38,F,secondary,never married,H034,member,1101,C01,E12,38,14720,employed,4,2024Q1,clean
+N035,39,M,secondary,never married,H035,member,1101,C01,E12,39,14800,employed,4,2024Q1,clean
+N036,28,F,secondary,never married,H036,member,1101,C01,E12,40,14880,employed,4,2024Q1,clean
+E001,31,M,secondary,married,HE001,member,1101,C02,E99,40,14050,employed,3,2024Q1,enumerator_block
+E002,32,M,secondary,married,HE002,member,1101,C02,E99,40,14100,employed,3,2024Q1,enumerator_block
+E003,33,M,secondary,married,HE003,member,1101,C02,E99,40,14150,employed,3,2024Q1,enumerator_block
+E004,34,M,secondary,married,HE004,member,1101,C02,E99,40,14200,employed,3,2024Q1,enumerator_block
+E005,30,M,secondary,married,HE005,member,1101,C02,E99,40,14250,employed,3,2024Q1,enumerator_block
+E006,31,M,secondary,married,HE006,member,1101,C02,E99,40,14300,employed,3,2024Q1,enumerator_block
+E007,32,M,secondary,married,HE007,member,1101,C02,E99,40,14350,employed,3,2024Q1,enumerator_block
+E008,33,M,secondary,married,HE008,member,1101,C02,E99,40,14400,employed,3,2024Q1,enumerator_block
+E009,34,M,secondary,married,HE009,member,1101,C02,E99,40,14450,employed,3,2024Q1,enumerator_block
+E010,30,M,secondary,married,HE010,member,1101,C02,E99,40,14500,employed,3,2024Q1,enumerator_block
+E011,31,M,secondary,married,HE011,member,1101,C02,E99,40,14550,employed,3,2024Q1,enumerator_block
+E012,32,M,secondary,married,HE012,member,1101,C02,E99,40,14600,employed,3,2024Q1,enumerator_block
+C001,35,F,secondary,never married,HC001,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C002,35,F,secondary,never married,HC002,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C003,35,F,secondary,never married,HC003,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C004,35,F,secondary,never married,HC004,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C005,35,F,secondary,never married,HC005,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C006,35,F,secondary,never married,HC006,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C007,35,F,secondary,never married,HC007,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C008,35,F,secondary,never married,HC008,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C009,35,F,secondary,never married,HC009,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+C010,35,F,secondary,never married,HC010,member,1101,C99,E12,0,800,unemployed,4,2024Q1,cluster_block
+S001,30,M,secondary,never married,HS001,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S002,30,M,secondary,never married,HS002,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S003,30,M,secondary,never married,HS003,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S004,30,M,secondary,never married,HS004,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S005,30,M,secondary,never married,HS005,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S006,30,M,secondary,never married,HS006,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S007,30,M,secondary,never married,HS007,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S008,30,M,secondary,never married,HS008,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S009,30,M,secondary,never married,HS009,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+S010,30,M,secondary,never married,HS010,member,1102,C88,E15,40,15000,employed,3,2024Q1,pattern
+T001,32,F,secondary,never married,HT001,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T002,32,F,secondary,never married,HT002,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T003,32,F,secondary,never married,HT003,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T004,32,F,secondary,never married,HT004,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T005,32,F,secondary,never married,HT005,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T006,32,F,secondary,never married,HT006,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T007,32,F,secondary,never married,HT007,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T008,32,F,secondary,never married,HT008,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T009,32,F,secondary,never married,HT009,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T010,32,F,secondary,never married,HT010,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T011,32,F,secondary,never married,HT011,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+T012,32,F,secondary,never married,HT012,member,1103,C10,E20,0,500,unemployed,3,2024Q2,temporal
+R049,16,F,postgraduate,married,HR049,head,1101,C01,E12,40,12000,employed,3,2024Q1,age_marital_edu
+R050,42,M,secondary,never married,HR050,member,1101,C01,E12,40,500000,employed,4,2024Q1,extreme_income
+R051,14,M,secondary,never married,HR051,head,1101,C01,E12,0,0,unemployed,3,2024Q1,young_head
+R052,40,F,secondary,never married,HHX,head,1101,C01,E12,40,13000,employed,5,2024Q1,dual_head_a
+R053,38,M,secondary,married,HHX,head,1101,C01,E12,38,12800,employed,5,2024Q1,dual_head_b
+R054,45,M,secondary,married,HR054,member,1101,C01,E12,0,90000,unemployed,3,2024Q1,income_unemployed

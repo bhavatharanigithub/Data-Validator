@@ -1,0 +1,38 @@
+---
+description: Locked architecture for the survey-validator hackathon platform. Do not change the pipeline or add extra infrastructure.
+alwaysApply: true
+---
+
+# Architecture lock
+
+Follow the approved architecture. Do not replace it with a different design.
+
+## Pipeline
+
+- CSV and eSIGMA are the two input methods.
+- Both must converge into the same normalized representation.
+- Normalized data becomes Parquet.
+- Parquet enters the Survey Data Intelligence Retrieval Layer (SIRL).
+- SIRL is RAG-inspired structured-data intelligence, NOT traditional document RAG.
+- SIRL creates dataset, variable, record, enumerator, cluster, district and historical profiles.
+- Profiles are stored in SQLite.
+- Unified Validation consumes those profiles.
+- Unified Validation consists of Rules + Statistics + ML.
+- Evidence is fused into a risk score.
+- AI is optional enrichment/context/explanation.
+- AI must never be the sole source of truth.
+- Never send the complete Parquet dataset to an LLM.
+- AI providers must use an abstraction layer and environment variables.
+- The deterministic pipeline must work when AI is unavailable.
+
+## Scope and stack
+
+- Do not introduce Redis, Kafka, Celery, Kubernetes, PostgreSQL, vector databases, LangChain, LlamaIndex, or unnecessary infrastructure.
+- Keep the architecture hackathon-scale.
+- Python FastAPI backend, SQLite for metadata/results, Parquet for analytical data.
+- Pandas, NumPy, SciPy, scikit-learn, and PyArrow do deterministic processing.
+- Frontend is Next.js (App Router), TypeScript, Tailwind, Recharts, and Lucide React.
+
+## Build order
+
+Build bottom-up. Do not implement later phases until they are requested. Deterministic ingestion, profiling, and validation must work without any AI provider.

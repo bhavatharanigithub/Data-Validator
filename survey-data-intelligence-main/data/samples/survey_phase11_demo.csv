@@ -1,0 +1,5 @@
+respondent_id,age,sex,district_code,cluster_id,enumerator_id,working_hours,income,employment_status,notes
+R001,34,F,1101,C01,E12,40,15000,employed,SYNTHETIC_DEMO clean record
+R002,,M,1101,C01,E12,0,NA,unemployed,SYNTHETIC_DEMO rule/missingness case
+R003,61,F,1102,C02,E15,36,22000,employed,SYNTHETIC_DEMO typical employed
+R004,29,M,1102,C02,E15,48,null,employed,SYNTHETIC_DEMO incomplete income

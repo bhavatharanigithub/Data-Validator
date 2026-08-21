@@ -1,0 +1,17 @@
+{
+  "dataset": "survey_demo_40.csv",
+  "notes": "Evaluation labels only. Do not pass this file to rules, statistics, ML, fusion, or AI.",
+  "records": [
+    {"record_id": "M030", "ground_truth": "clear_anomaly", "reason": "age < 0", "expect_rule": true},
+    {"record_id": "M031", "ground_truth": "clear_anomaly", "reason": "age > 100", "expect_rule": true},
+    {"record_id": "M032", "ground_truth": "clear_anomaly", "reason": "working_hours > 168", "expect_rule": true},
+    {"record_id": "M033", "ground_truth": "clear_anomaly", "reason": "income < 0", "expect_rule": true},
+    {"record_id": "M034", "ground_truth": "clear_anomaly", "reason": "household_size < 1", "expect_rule": true},
+    {"record_id": "M035", "ground_truth": "clear_anomaly", "reason": "unemployed with working_hours > 0", "expect_rule": true},
+    {"record_id": "M036", "ground_truth": "clear_anomaly", "reason": "employed with working_hours == 0", "expect_rule": true},
+    {"record_id": "M037", "ground_truth": "borderline_unusual", "reason": "working_hours 96 is legal but unusual", "expect_rule": false},
+    {"record_id": "M038", "ground_truth": "borderline_unusual", "reason": "income 48000 is legal but unusual", "expect_rule": false},
+    {"record_id": "M039", "ground_truth": "multi_source_extreme", "reason": "impossible age, hours, and negative income", "expect_rule": true},
+    {"record_id": "M040", "ground_truth": "multi_source_extreme", "reason": "unusual hours/income/age combination", "expect_rule": false}
+  ]
+}

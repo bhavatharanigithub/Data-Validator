@@ -1,0 +1,30 @@
+STATUSES = frozenset(
+    {
+        "OPEN",
+        "IN_REVIEW",
+        "REQUIRES_REENUMERATION",
+        "ESCALATED",
+        "RESOLVED_VALID",
+        "RESOLVED_INVALID",
+    }
+)
+ACTIONS = frozenset(
+    {
+        "REVIEW",
+        "VERIFY_SOURCE",
+        "REQUEST_REENUMERATION",
+        "ESCALATE",
+        "MARK_VALID",
+        "MARK_INVALID",
+    }
+)
+PRIORITIES = frozenset({"LOW", "MEDIUM", "HIGH", "CRITICAL"})
+RESOLVED = frozenset({"RESOLVED_VALID", "RESOLVED_INVALID"})
+ACTION_STATUS = {
+    "REVIEW": "IN_REVIEW",
+    "VERIFY_SOURCE": "IN_REVIEW",
+    "REQUEST_REENUMERATION": "REQUIRES_REENUMERATION",
+    "ESCALATE": "ESCALATED",
+    "MARK_VALID": "RESOLVED_VALID",
+    "MARK_INVALID": "RESOLVED_INVALID",
+}

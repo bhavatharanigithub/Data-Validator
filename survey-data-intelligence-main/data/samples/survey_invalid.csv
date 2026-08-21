@@ -1,0 +1,11 @@
+respondent_id,age,sex,district_code,cluster_id,enumerator_id,working_hours,income,employment_status,notes
+R101,-1,F,1101,C01,E12,20,8000,employed,negative age
+R102,127,M,1101,C01,E12,30,9000,employed,too old
+R103,40,F,1101,C01,E12,200,11000,employed,too many hours
+R104,33,M,1101,C01,E12,20,-50,employed,negative income
+R105,28,F,1101,C01,E12,0,14000,employed,employed zero hours
+R106,31,M,1101,C01,E12,35,15000,employed,valid
+,42,F,1101,C01,E12,20,10000,employed,missing respondent
+R108,36,M,1101,C99,E12,22,12000,employed,unknown cluster
+R109,39,F,9999,C01,E12,24,13000,employed,unknown district
+R110,41,M,1101,C01,E99,18,12500,employed,unknown enumerator
